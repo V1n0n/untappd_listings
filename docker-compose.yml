@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  untappd_listing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "2000:2000"
+    entrypoint: ["python", "untappd_csv_additions.py"]
