@@ -10,7 +10,7 @@ Usage
   python untappd_csv_additions.py "van moll fest 2026.csv" -o "van moll fest 2026 aangevuld.csv"
   python untappd_csv_additions.py "van moll fest 2026.csv" -o "van moll fest 2026 aangevuld.csv" --limit 10
 
-Optioneel:
+Optional:
   python untappd_csv_additions.py input.csv -o output.csv --delay 2 --limit 20
 
 Remember:
